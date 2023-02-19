@@ -96,7 +96,7 @@ p::first-letter {
   padding: 2rem;
   opacity: 0;
   transform: translateX(-200px);
-  transition: 1s ease-in;
+  transition: 0.6s ease-in-out;
 }
 .overcome {
   padding: 2rem;
@@ -136,7 +136,7 @@ p::first-letter {
   box-shadow: 0 5px 10px black;
   opacity: 0;
   transform: translateX(400px);
-  transition: 1s ease-out;
+  transition: 0.6s ease-out;
 }
 .pop-up-container {
   width: 100%;
@@ -197,4 +197,9 @@ p::first-letter {
 }
 .fa-times-circle:active {
   transform: scale(1.5);
+}
+
+.affichePopup {
+  opacity: 1;
+  transform: translateX(0);
 }
